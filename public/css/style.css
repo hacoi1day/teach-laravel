@@ -1,0 +1,73 @@
+.navbar {
+    padding: 0px;
+}
+.navbar .navbar-brand {
+    padding-left: 5px;
+    cursor: pointer;
+}
+.navbar .navbar-nav {}
+.navbar .navbar-nav .nav-item {
+    padding: 4px 8px;
+    font-size: 18px;
+}
+.navbar .navbar-nav .nav-item:hover {
+    background-color: #E7AB79;
+}
+.navbar .navbar-nav .nav-item:hover .nav-link {
+    color: white;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    transition: 0s;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {}
+
+.main {
+    margin-left: 0px;
+    transition: 0.5s;
+}
+
+/* it is CSS for collapsed side  */
+.sidebar {
+    height: 100%;
+    width: 0px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    padding-top: 60px;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.sidebar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.sidebar a {
+    padding: 8px 32px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.sidebar a:hover {
+    color: #e3e3e3;
+}
+
+/* CSS for footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    text-align: center;
+    background-color: #e3e3e3;
+    color: gray;
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+}
